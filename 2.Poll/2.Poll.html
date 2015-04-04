@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="jquery.pietimer.min.js"></script>
+</head>
+<body>
+<div id="first-question" >
+    През коя година е основан, футболен клуб Арсенал.
+    <div id="first-container">
+        <div>
+            <input type="radio" name="arsenal" value="1885"/>1885
+            <input type="radio" name="arsenal" value="1886"/>1886
+            <input type="radio" name="arsenal" value="1889"/>1889
+            <input type="radio" name="arsenal" value="1902"/>1902
+        </div>
+        <button id="first-btn">Submit</button>
+    </div>
+
+</div>
+<div id="second-question">
+    Колко пъти футболен клуб Арсенал е ставал шампион на Англия(старата първа дивизия плюс висшата лига)
+
+    <div id="second-container">
+        <div>
+            <input type="radio" name="champion" value="10"/>10
+            <input type="radio" name="champion" value="5"/>5
+            <input type="radio" name="champion" value="13"/>13
+            <input type="radio" name="champion" value="20"/>20
+        </div>
+        <button id="second-btn">Submit</button>
+    </div>
+
+</div>
+<div id="third-question">
+    Колко пъти футболен клуб Арсенал е печелил ФА Къп.
+    <div id="third-container">
+        <div>
+            <input type="radio" name="cup" value="11"/>11
+            <input type="radio" name="cup" value="7"/>7
+            <input type="radio" name="cup" value="20"/>20
+            <input type="radio" name="cup" value="9"/>9
+        </div>
+        <button id="third-btn">Submit</button>
+    </div>
+
+</div>
+<div id="timer"></div>
+<div id="time">Имаш 5 минути. Времето започва да тече сега.</div>
+<h3 class="boom">Boom!</h3>
+<p class="boom">Няма време.</p>
+<script src="2.Poll.js"></script>
+</body>
+</html>
